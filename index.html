@@ -1,146 +1,499 @@
 <!DOCTYPE html>
-  <head>
-    <title>Intro</title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="./styles.css" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riddhi Bhagwat - Software Engineer & AI/ML Developer</title>
+    <meta name="description" content="MIT Computer Science student passionate about AI/ML, software development, and innovative tech solutions.">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <meta http-equiv="Permissions-Policy" content="geolocation=(self), microphone=()">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
 
-
-  </head>
-
-  <body>
-
-
-    <header class="top-bar">
-        <div class="left-section">
-            <p class="name">Riddhi Bhagwat</p>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Riddhi Bhagwat</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#awards" class="nav-link">Awards & Accomplishments</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </div>
-        <div class="right-section">
-            <nav class="navigation">
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="writing_speaking.html">Writing & Speaking</a></li>
-                </ul>
-            </nav>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Riddhi</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Software Engineer & AI/ML Developer</h2>
+                    <p class="hero-description">
+                        MIT Computer Science student passionate about building innovative solutions 
+                        with AI/ML, data engineering, and cutting-edge technologies.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://www.linkedin.com/in/riddhibhagwat" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/riddhibhagwat" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:riddhibhagwat@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="Bhagwat_Riddhi_Resume_0725_updated.pdf" target="_blank" aria-label="Resume">
+                            <i class="fas fa-file-pdf"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="images/intro_image.jpeg" alt="Riddhi Bhagwat" class="profile-image">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </header>
-    <div class="main-container">
-    <div class="landing-container">
-    <div class="intro clip-contents">
-      
-      <div class="content">
-        <p class="title" id="title-hello"></p>
-        <p class="cs-ai-data-innovation-st">
-          Cs, AI, Data, & Innovation | Student @ MIT
-        </p>
-        <div class="subheadline">
-          <p class="intro-desc">
-            Welcome to my digital space! I’m an aspiring Software Development
-            and AI/ML Engineer, pursuing projects across a wide range of
-            disciplines that I am passionate about. Also an avid
-            writer & badminton player.
-          </p>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
         </div>
-        
-        <div class="landing-buttons">
-            <button class="resume res-link-buttons" id="resume">Resume</button>
-            <button class="linkedin res-link-buttons" id="linkedin">LinkedIn</button>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-intro">
+                        <p>
+                            I'm a <strong>second-year undergraduate student at MIT</strong> majoring in 
+                            <strong>Computer Science & Engineering</strong> and a double major in 
+                            <strong>Brain & Cognitive Sciences</strong>.
+                        </p>
+                    </div>
+                    <div class="about-details">
+                        <p>
+                            I'm passionate about exploring emerging technologies including 
+                            <span class="highlight">AI capabilities, machine learning applications, and advances in data engineering</span>. 
+                            As a lifelong learner, I enjoy continually growing my understanding of technologies and applying them 
+                            towards forming innovative solutions.
+                        </p>
+                        <p>
+                            From <span class="highlight">sustainable energy to healthcare digitalization</span>, 
+                            I have delved into various projects that fuel my curiosity and provide hands-on exposure 
+                            to computational applications across industries I'm passionate about.
+                        </p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">MIT</span>
+                            <span class="stat-label">Student</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Awards</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-card">
+                        <h3>Beyond Coding</h3>
+                        <p>When I'm not coding, you'll find me:</p>
+                        <ul>
+                            <li><i class="fas fa-pen"></i> Writing & blogging</li>
+                            <li><i class="fas fa-music"></i> Playing viola</li>
+                            <li><i class="fas fa-plane"></i> Traveling</li>
+                            <li><i class="fas fa-table-tennis"></i> Playing badminton</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <img
-      src="images/intro_image.png"
-      class="intro-image"
-      id="intro-image"
-    />
-</div>
-<div class="about-wrapper">
-  <!-- Background element -->
-  <div class="about-background"></div>
-  
-  <!-- Text content element -->
-  <div class="about-desc">
-    <div class="section-title about-section">
-      <p class="section-title-text">About Me</p>
-      <div class="section-line"></div>
-    <p class="about-me-para">
-      Hi! I'm a <span class="major">second-year undergraduate student at MIT</span>
-       majoring in <span class="major">Computer Science & Engineering</span> and minoring in <span class="major">Brain & Cognitive Sciences.</span>
-      <br>
-      <br>
-      I am especially passionate about exploring emerging technologies including <span class="highlights">AI capabilities, 
-      machine learning applications, and advances in data engineering.</span> 
-      As a <span class="highlights">lifelong learner</span>, I enjoy continually growing an increasing understanding of technologies and applying them 
-      towards forming <span class="highlights">innovative solutions</span>. I am driven to explore their transformative 
-      applications to create a global impact. 
-      <br>
-      <br>
-      From <span class="highlights">sustainabile energy to healthcare digitalization</span>, I have delved into various projects that fuel my curiosity and 
-      provide hands on exposure into the applications of computation to various industries that I am passionate about.
-      I excel in <span class="highlights">creative problem-solving</span> and am eager to leverage my skills and knowledge 
-      in real-world projects and collaborations that <span class="highlights">push the boundaries of innovation</span>.
-      <br>
-      <br>
-      My endless fascination with learning new things doesn't stop at my academic and professional endeavors - I am always looking to experiment with and 
-      grow through my hobbies, from <span class="highlights">writing to playing my viola to traveling to playing badminton.</span> Check out my <span class="highlights writing-link">'Writing & Speaking'</span> page to see my latest life update:
-      could be a deep train of thought, a write up of my most recent cafe adventure, or simply a reflection of ongoing events. 
-      I guarantee a 100% satisfaction rate that each piece conveys <span class="highlights">classic, wholesome, coming-of-age realizations</span>
-      that I hope you will join me in reminiscing throughout my writing :) 
-      <br>
-      <br>
-      Let's connect if you're looking for a <span class="highlights">proactive and enthusiastic</span> individual ready to contribute to <span class="highlights">cutting-edge 
-      projects</span> and make <span class="highlights">meaningful advancements</span> in the tech industry!
-      <br>
-      <br>
-      Glad to have you here! 
-      <br>
-      <br>
-      ~ Riddhi 
-      </p>
-    </div>
-  </div>
-</div>
+    </section>
 
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">TypeScript</span>
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">C++</span>
+                        <span class="skill-item">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AI/ML & Data</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">TensorFlow</span>
+                        <span class="skill-item">PyTorch</span>
+                        <span class="skill-item">Scikit-learn</span>
+                        <span class="skill-item">Pandas</span>
+                        <span class="skill-item">NumPy</span>
+                        <span class="skill-item">OpenCV</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">React</span>
+                        <span class="skill-item">Node.js</span>
+                        <span class="skill-item">Express</span>
+                        <span class="skill-item">HTML/CSS</span>
+                        <span class="skill-item">MongoDB</span>
+                        <span class="skill-item">PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">AWS</span>
+                        <span class="skill-item">Linux</span>
+                        <span class="skill-item">Jupyter</span>
+                        <span class="skill-item">VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="carousel-container">
-  <div class="section-title">
-    <p class="section-title-text">Awards & Features</p>
-    <div class="section-line"></div>
-  </div>
-  <div class="carousel-viewport">
-  <div class="carousel">
-    <img id="aic" src="images/featured/ncwit_aic.png" alt="NCWIT AiC">
-    <img id="dita" src="images/featured/dita_awards.jpg" alt="Diversity in Tech Awards">
-    <img id="aspireit" src="images/featured/ncwit_aspireit.png" alt="NCWIT AspireIT">
-    <img id="idea2" src="images/featured/idea2-logo.png" alt="IDEA^2 Biomedical Accelerator">
-    <img id="top-cs-voice" src="images/featured/top_cs_voice.png" alt="LinkedIn Top Voice in Computer Science">
-  </div>
-  </div>
-</div>
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">My recent professional journey</p>
+            </div>
+            <div class="experience-timeline">
+                <div class="experience-card">
+                    <div class="exp-icon"><i class="fas fa-rocket"></i></div>
+                    <div class="exp-content">
+                        <h3>Letta (AI Startup) <span class="exp-role">Software Engineering Intern</span></h3>
+                        <span class="experience-date">Summer 2025</span>
+                        <p>Building AI-driven solutions for enterprise clients. Working on NLP and generative AI features for productization. Collaborating with a fast-paced startup team to deliver impactful technology.</p>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="exp-icon"><i class="fas fa-brain"></i></div>
+                    <div class="exp-content">
+                        <h3>MIT CSAIL <span class="exp-role">Undergraduate NLP Researcher</span></h3>
+                        <span class="experience-date">2024 &ndash; Present</span>
+                        <p>Conducting research in natural language processing and large language models. Focused on RLHF, data curation, and model evaluation. Collaborating with leading researchers at MIT CSAIL.</p>
+                    </div>
+                </div>
+                <div class="experience-card resume-card">
+                    <div class="exp-icon"><i class="fas fa-file-pdf"></i></div>
+                    <div class="exp-content">
+                        <h3>Full Resume</h3>
+                        <a href="Bhagwat_Riddhi_Resume_0725_updated.pdf" target="_blank" class="btn btn-primary">Download Resume (PDF)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <img src="images/feel_pic.png" alt="FeeL - Feedback Loop">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://huggingface.co/blog/borgr/feel" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>FeeL - Feedback Loop</h3>
+                            <span class="project-status ongoing">Ongoing</span>
+                        </div>
+                        <p class="project-description">
+                            A community-driven platform for improving multilingual language models through user feedback and RLHF, 
+                            making AI better for speakers of all languages.
+                        </p>
+                        <div class="project-tech">
+                            <span>LLMs</span>
+                            <span>RLHF</span>
+                            <span>HuggingFace</span>
+                            <span>Multilingual AI</span>
+                        </div>
+                    </div>
+                </div>
 
-<footer class="footer">
-  <div class="footer-content">
-      <p class="contact-title">Contact Me</p>
-      <div class="contact-info">
-        <a href="mailto:riddhibhagwat@gmail.com">
-            <i class="fas fa-envelope"></i> riddhibhagwat@gmail.com
-        </a>
-        <a href="tel:+18473100073">
-            <i class="fas fa-phone"></i> +1 847 310 0073
-        </a>
-        <a href="https://www.linkedin.com/in/riddhibhagwat" target="_blank">
-            <i class="fab fa-linkedin"></i> LinkedIn Profile
-        </a>
-    </div>
-  </div>
-  <div class="footer-bottom">
-      <p>&copy; 2024 Riddhi Bhagwat. All rights reserved.</p>
-  </div>
-</footer>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/fracnet_image.png" alt="FracNet Project">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>FracNet</h3>
+                            <span class="project-status ongoing">Ongoing</span>
+                        </div>
+                        <p class="project-description">
+                            A deep learning tool based on flow modeling architecture to provide insights 
+                            into underground fractured rock networks.
+                        </p>
+                        <div class="project-tech">
+                            <span>Deep Learning</span>
+                            <span>Flow Modeling</span>
+                            <span>Simulation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/toneme_image.png" alt="ToneMe Project">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/tone-me/tone-me.git" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>ToneMe</h3>
+                            <span class="project-status completed">Completed</span>
+                        </div>
+                        <p class="project-description">
+                            A tone correction tool for Mandarin learners. Developed as part of 
+                            AIM (AI @ MIT) Labs Accelerator.
+                        </p>
+                        <div class="project-tech">
+                            <span>NLP</span>
+                            <span>Audio Processing</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/onconpc_image.png" alt="OncoNPC Project">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://www.nature.com/articles/s41591-023-02482-6" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>OncoNPC Generalization</h3>
+                            <span class="project-status ongoing">Research</span>
+                        </div>
+                        <p class="project-description">
+                            Generalizing the OncoNPC classification algorithm (developed in collaboration with MIT CSAIL) 
+                            to a broader patient population by training on specific gene sequencing platforms.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>Genomics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="awards" class="awards accomplishments">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Awards & Accomplishments</h2>
+                <p class="section-subtitle">Recognition, honors, and achievements</p>
+            </div>
+            <div class="awards-grid-wide">
+                <div class="award-card">
+                    <div class="award-image"><img src="images/featured/ncwit_aic.png" alt="NCWIT AiC Award"></div>
+                    <div class="award-content">
+                        <h3>NCWIT Award for Aspirations in Computing</h3>
+                        <span class="award-badge">National</span>
+                        <p>National recognition for technical achievements and leadership in computing</p>
+                    </div>
+                </div>
+                <div class="award-card">
+                    <div class="award-image"><img src="images/featured/top_cs_voice.png" alt="LinkedIn Top Voice"></div>
+                    <div class="award-content">
+                        <h3>LinkedIn Top Voice in Computer Science</h3>
+                        <span class="award-badge">Thought Leadership</span>
+                        <p>Recognized for thought leadership and contributions to the CS community</p>
+                    </div>
+                </div>
+                <div class="award-card">
+                    <div class="award-image"><img src="images/featured/idea2-logo.png" alt="IDEA² Biomedical Accelerator"></div>
+                    <div class="award-content">
+                        <h3>IDEA² Biomedical Accelerator</h3>
+                        <span class="award-badge">Innovation</span>
+                        <p>Selected for prestigious biomedical innovation program</p>
+                    </div>
+                </div>
+                <div class="award-card">
+                    <div class="award-image"><img src="images/featured/dita_awards.jpg" alt="Diversity in Tech Awards"></div>
+                    <div class="award-content">
+                        <h3>Diversity in Tech Awards</h3>
+                        <span class="award-badge">Diversity</span>
+                        <p>Recognition for promoting diversity and inclusion in technology</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-header" style="margin-top: 3rem;">
+                <h3 class="section-title" style="font-size:1.5rem; margin-bottom:0.5rem;">Energy Awards</h3>
+                <p class="section-subtitle" style="font-size:1rem;">Recognition in energy innovation and leadership</p>
+            </div>
+            <div class="awards-grid">
+                <div class="award-card">
+                    <div class="award-image"><i class="fas fa-bolt fa-2x" style="color:var(--teal-dark);"></i></div>
+                    <div class="award-content">
+                        <h3>MIT Energy Initiative Top 5 Slam Speaker</h3>
+                        <span class="award-badge">Energy</span>
+                        <p>Selected as a top speaker for the MIT Energy Initiative Slam, presenting innovative energy solutions.</p>
+                    </div>
+                </div>
+                <div class="award-card">
+                    <div class="award-image"><i class="fas fa-award fa-2x" style="color:var(--teal-dark);"></i></div>
+                    <div class="award-content">
+                        <h3>C3E Energy Conference Poster Finalist 2025 @ Stanford</h3>
+                        <span class="award-badge">Energy</span>
+                        <p>Recognized as a finalist for the C3E Energy Conference poster session at Stanford University, 2025.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Ready to collaborate on cutting-edge projects</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:riddhibhagwat@gmail.com">riddhibhagwat@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <a href="tel:+18473100073">+1 (847) 310-0073</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/riddhibhagwat" target="_blank">linkedin.com/in/riddhibhagwat</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2024 Riddhi Bhagwat. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/riddhibhagwat" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/riddhibhagwat" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:riddhibhagwat@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="writing_speaking.html" aria-label="Writing & Speaking">
+                            <i class="fas fa-blog"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-
-  <script src="script.js" defer></script>
 </html>
