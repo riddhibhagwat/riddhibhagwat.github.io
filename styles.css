@@ -283,13 +283,13 @@ body {
     overflow: hidden;
     border-right: 3px solid var(--primary-color);
     white-space: nowrap;
-    animation: typing 3s steps(15, end) infinite, blink-caret 0.75s step-end infinite;
+    animation: typing 40s steps(15, end) 0s infinite, blink-caret 0.75s step-end infinite;
     animation-fill-mode: forwards;
     animation-delay: 0s, 0s;
 }
 
 .cursive-tech {
-    font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+    font-family: 'Orbitron', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
     font-style: italic;
     background: var(--gradient-primary);
     -webkit-background-clip: text;
@@ -299,11 +299,14 @@ body {
 }
 
 @keyframes typing {
-    0%, 30% {
+    0% {
         width: 0;
     }
-    70%, 100% {
+    7.5%, 85% {
         width: 100%;
+    }
+    100% {
+        width: 0;
     }
 }
 
