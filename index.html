@@ -1,499 +1,421 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Riddhi Bhagwat - Software Engineer & AI/ML Developer</title>
-    <meta name="description" content="MIT Computer Science student passionate about AI/ML, software development, and innovative tech solutions.">
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:ital,wght@1,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riddhi Bhagwat</title>
+  <meta name="description" content="Riddhi Bhagwat — MIT undergraduate researcher in NLP, LLM interpretability, and multilingual AI at MIT CSAIL.">
+  <meta name="keywords" content="NLP, LLM, RLHF, multilingual AI, interpretability, MIT CSAIL, machine learning, undergraduate research">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💡</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
 </head>
-
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="#home">Riddhi Bhagwat</a>
-            </div>
-            <div class="nav-menu" id="nav-menu">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#skills" class="nav-link">Skills</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#experience" class="nav-link">Experience</a>
-                <a href="#awards" class="nav-link">Awards & Accomplishments</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-            <div class="nav-toggle" id="nav-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
+<div class="page-wrap">
+
+  <!-- ── Header ── -->
+  <header class="site-header">
+    <h1 class="site-name">Riddhi Bhagwat</h1>
+    <nav class="site-nav">
+      <a href="#about">About</a> /
+      <a href="#research">Research</a> /
+      <a href="#writing">Writing</a> /
+      <a href="#contact">Contact</a>
     </nav>
+  </header>
 
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-title">
-                        <span class="typing-text cursive-tech">Hi, I'm Riddhi</span>
-                    </h1>
-                    <h2 class="hero-subtitle">Software Engineer & AI/ML Developer</h2>
-                    <p class="hero-description">
-                        MIT Computer Science student passionate about building innovative solutions 
-                        with AI/ML, data engineering, and cutting-edge technologies.
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">View My Work</a>
-                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                    </div>
-                    <div class="hero-social">
-                        <a href="https://www.linkedin.com/in/riddhibhagwat" target="_blank" aria-label="LinkedIn">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/riddhibhagwat" target="_blank" aria-label="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="mailto:riddhibhagwat@gmail.com" aria-label="Email">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                        <a href="Bhagwat_Riddhi_Resume_0725_updated.pdf" target="_blank" aria-label="Resume">
-                            <i class="fas fa-file-pdf"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <div class="image-container">
-                        <img src="images/intro_image.jpeg" alt="Riddhi Bhagwat" class="profile-image">
-                        <div class="image-overlay"></div>
-                    </div>
-                </div>
-            </div>
+  <!-- ── Bio ── -->
+  <section id="about">
+    <div class="bio-grid">
+      <img src="images/headshot_felicis.jpg" class="profile-photo" alt="Riddhi Bhagwat">
+      <div class="bio-text">
+        <p>
+          I am an undergraduate student at MIT studying Computer Science &amp; Engineering
+          with a minor in Brain &amp; Cognitive Sciences. I work as an NLP researcher at
+          <a href="https://www.csail.mit.edu/" target="_blank">MIT CSAIL</a> in the 
+          <a href="https://lingo.csail.mit.edu/" target="_blank">Language and Intelligence Group</a>, where my current
+          focus is on LLM interpretability, self-consistency, and reward modeling &mdash; exploring
+          whether we can understand and influence a model&rsquo;s internal representations to
+          improve reliability. Previously, I interned at
+          <a href="https://letta.com" target="_blank">Letta</a> on the research team,
+          building memory management capabilities in agentic systems, and this summer I will be joining
+          <a href="https://www.databricks.com" target="_blank">Databricks</a> as an intern. I am also a Venture Fellow with
+          <a href="https://www.felicis.com" target="_blank">Felicis</a>, exploring the early-stage startup ecosystem.
+        </p>
+        <p>
+          I am interested in building agentic AI that can act autonomously and learn from their interactions, 
+          reflecting on its own reasoning and improving self-consistency through model introspection and 
+          reward modeling. My research aims to explore how these systems can learn to generalize,
+          communicate effectively, and learn from guidance, with the broader goal of making AI more trustworthy and beneficial.
+          Feel free to reach out at
+          <a href="mailto:riddhibhagwat@gmail.com">riddhibhagwat@gmail.com</a>.
+        </p>
+        <p class="bio-links">
+          <a href="mailto:riddhibhagwat@gmail.com">Email</a> /
+          <a href="https://github.com/riddhibhagwat" target="_blank">GitHub</a> /
+          <a href="https://www.linkedin.com/in/riddhibhagwat" target="_blank">LinkedIn</a> /
+          <a href="#" target="_blank">Substack</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── News ── -->
+  <!-- <section id="news">
+    <h2 class="section-label">News</h2>
+    <ul class="news-list">
+      <li>
+        <span class="news-date">Summer 2026</span>
+        Incoming Software Engineering Intern at Databricks.
+      </li>
+      <li>
+        <span class="news-date">Mar 2026</span>
+        Paper accepted to ICLR &mdash; <em>LLM Hypnosis</em>: controlling model behavior
+        through internal representations and reward modeling for self-consistency.
+      </li>
+      <li>
+        <span class="news-date">Mar 2026</span>
+        C3E Energy Conference Poster Finalist at Stanford University.
+      </li>
+    </ul> -->
+
+    <!-- Older items shown on toggle -->
+    <!-- <ul class="news-list" id="news-extra" hidden>
+      <li>
+        <span class="news-date">2025</span>
+        MIT Energy Initiative Slam &mdash; Top 5 Speaker.
+      </li>
+      <li>
+        <span class="news-date">Summer 2025</span>
+        Interned as Member of Technical Staff at Letta (AI/NLP).
+      </li>
+      <li>
+        <span class="news-date">2024&ndash;Pres.</span>
+        Undergraduate NLP Researcher at MIT CSAIL &mdash; multilingual LLMs, RLHF, data curation.
+      </li>
+      <li>
+        <span class="news-date">2024</span>
+        Named LinkedIn Top Voice in Computer Science.
+      </li>
+      <li>
+        <span class="news-date">2023</span>
+        NCWIT Award for Aspirations in Computing (National).
+      </li>
+    </ul>
+    <button class="news-toggle-btn" id="news-toggle">Show more</button>
+  </section> -->
+
+  <!-- ── Research & Projects ── -->
+  <section id="research">
+    <h2 class="section-label">Research, Projects, &amp; Experience</h2>
+
+    <!-- Current research -->
+    <div class="project-row">
+      <div class="project-thumb-placeholder">Current<br>Research</div>
+      <div class="project-info">
+        <p class="project-title-line">
+          LLM Internals &amp; Self-Consistency
+          <span class="tag ongoing">Ongoing</span>
+        </p>
+        <!-- <p class="project-authors"><strong>Riddhi Bhagwat</strong> &mdash; MIT CSAIL Language and Intelligence Group</p> -->
+        <p class="project-desc">
+          Investigating the broader connections between LLM internal representations, reward
+          signals, and self-consistency &mdash; exploring how understanding a model&rsquo;s
+          internals can enable more reliable alignment and predictable behavior.
+        </p>
+        <div class="project-tags-line">
+          <span>Interpretability</span>
+          <span>Reward Modeling</span>
+          <span>Self-Consistency</span>
+          <span>Alignment</span>
         </div>
-        <div class="scroll-indicator">
-            <div class="scroll-arrow"></div>
+      </div>
+    </div>
+
+    <!-- LLM Hypnosis -->
+    <div class="project-row">
+      <img src="images/llm_hypnosis.png" class="project-thumb" alt="LLM Hypnosis diagram" style="object-fit: contain; background: var(--bg-alt);">
+      <div class="project-info">
+        <p class="project-title-line">
+          LLM Hypnosis
+          <span class="tag under-review">Under Review</span>
+          <span class="tag iclr">ICLR 2026 Workshop </span>
+        </p>
+        <p class="project-authors">Almog Hilel &amp;<strong> Riddhi Bhagwat</strong>, Leshem Choshen, Idan Shenfeld, Jacob Andreas</p>
+        <p class="project-desc">
+          Exposes a vulnerability in preference tuning pipelines: adversarial inputs can
+          systematically hijack RLHF-aligned models, causing them to behave contrary to
+          their stated preferences. Demonstrates risks in current alignment workflows.
+        </p>
+        <p class="project-links-line">
+          <a href="#">ArXiv (coming soon)</a>
+        </p>
+        <div class="project-tags-line">
+          <span>Adversarial Robustness</span>
+          <span>Preference Tuning</span>
+          <span>RLHF</span>
+          <span>AI Safety</span>
         </div>
-    </section>
+      </div>
+    </div>
 
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">About Me</h2>
-                <p class="section-subtitle">Get to know me better</p>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <div class="about-intro">
-                        <p>
-                            I'm a <strong>second-year undergraduate student at MIT</strong> majoring in 
-                            <strong>Computer Science & Engineering</strong> and a double major in 
-                            <strong>Brain & Cognitive Sciences</strong>.
-                        </p>
-                    </div>
-                    <div class="about-details">
-                        <p>
-                            I'm passionate about exploring emerging technologies including 
-                            <span class="highlight">AI capabilities, machine learning applications, and advances in data engineering</span>. 
-                            As a lifelong learner, I enjoy continually growing my understanding of technologies and applying them 
-                            towards forming innovative solutions.
-                        </p>
-                        <p>
-                            From <span class="highlight">sustainable energy to healthcare digitalization</span>, 
-                            I have delved into various projects that fuel my curiosity and provide hands-on exposure 
-                            to computational applications across industries I'm passionate about.
-                        </p>
-                    </div>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <span class="stat-number">MIT</span>
-                            <span class="stat-label">Student</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">10+</span>
-                            <span class="stat-label">Projects</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">5+</span>
-                            <span class="stat-label">Awards</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-image">
-                    <div class="about-card">
-                        <h3>Beyond the Books</h3>
-                        <p>When I'm not coding, building, or exploring new tech, you'll find me:</p>
-                        <ul>
-                            <li><i class="fas fa-pen"></i> Writing & blogging</li>
-                            <li><i class="fas fa-music"></i> Dancing</li>
-                            <li><i class="fas fa-plane"></i> Traveling</li>
-                            <li><i class="fas fa-table-tennis"></i> Playing badminton</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+    <!-- FeeL -->
+    <div class="project-row">
+      <img src="images/feel_pic.png" class="project-thumb" alt="FeeL — Feedback Loop">
+      <div class="project-info">
+        <p class="project-title-line">
+          FeeL &mdash; Feedback Loop
+          <span class="tag research">Research</span>
+        </p>
+        <p class="project-authors"><strong>Riddhi Bhagwat</strong>, Jen Ben Arye, Leshem Choshen, Idan Shenfeld, Jacob Andreas</p>
+        <p class="project-desc">
+          A community-driven platform for improving multilingual language models through
+          structured human feedback and RLHF pipelines, making AI more equitable for speakers
+          of all languages.
+        </p>
+        <p class="project-links-line">
+          <a href="https://huggingface.co/blog/borgr/feel" target="_blank">Blog Post</a>
+        </p>
+        <div class="project-tags-line">
+          <span>LLMs</span>
+          <span>RLHF</span>
+          <span>Multilingual AI</span>
+          <span>HuggingFace</span>
         </div>
-    </section>
+      </div>
+    </div>
 
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Technical Skills</h2>
-                <p class="section-subtitle">Technologies I work with</p>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Programming Languages</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">Python</span>
-                        <span class="skill-item">JavaScript</span>
-                        <span class="skill-item">TypeScript</span>
-                        <span class="skill-item">Java</span>
-                        <span class="skill-item">C++</span>
-                        <span class="skill-item">SQL</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>AI/ML & Data</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">TensorFlow</span>
-                        <span class="skill-item">PyTorch</span>
-                        <span class="skill-item">Scikit-learn</span>
-                        <span class="skill-item">Pandas</span>
-                        <span class="skill-item">NumPy</span>
-                        <span class="skill-item">OpenCV</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Web Development</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">React</span>
-                        <span class="skill-item">Node.js</span>
-                        <span class="skill-item">Express</span>
-                        <span class="skill-item">HTML/CSS</span>
-                        <span class="skill-item">MongoDB</span>
-                        <span class="skill-item">PostgreSQL</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Tools & Technologies</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">Git</span>
-                        <span class="skill-item">Docker</span>
-                        <span class="skill-item">AWS</span>
-                        <span class="skill-item">Linux</span>
-                        <span class="skill-item">Jupyter</span>
-                        <span class="skill-item">VS Code</span>
-                    </div>
-                </div>
-            </div>
+    <!-- FracNet -->
+    <div class="project-row">
+      <img src="images/fracnet_image.png" class="project-thumb" alt="FracNet">
+      <div class="project-info">
+        <p class="project-title-line">
+          FracNet
+          <span class="tag research">Research</span>
+        </p>
+        <p class="project-authors"><strong>Riddhi Bhagwat</strong>, Hannah Lu, Lluis Salo-Saldago, Ruben Juanes</p>
+        <p class="project-desc">
+          A deep learning tool based on flow modeling architecture to provide insights into
+          underground fractured rock networks, enabling better subsurface characterization
+          for energy and environmental applications.
+        </p>
+        <p class="project-links-line">
+          <a href="Subsurface Fluid Flow Modeling FracNet.pdf" target="_blank">Poster (PDF)</a>
+        </p>
+        <div class="project-tags-line">
+          <span>Deep Learning</span>
+          <span>Flow Modeling</span>
+          <span>Geoscience</span>
         </div>
-    </section>
+      </div>
+    </div>
 
-    <section id="experience" class="experience">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Experience</h2>
-                <p class="section-subtitle">My recent professional journey</p>
-            </div>
-            <div class="experience-timeline">
-                <div class="experience-card">
-                    <div class="exp-icon"><i class="fas fa-rocket"></i></div>
-                    <div class="exp-content">
-                        <h3>Letta <span class="exp-role">Member of Technical Staff Intern</span></h3>
-                        <span class="experience-date">Summer 2025</span>
-                        <p>Building AI-driven solutions for enterprise clients. Working on NLP and generative AI features for productization. Collaborating with a fast-paced startup team to deliver impactful technology.</p>
-                    </div>
-                </div>
-                <div class="experience-card">
-                    <div class="exp-icon"><i class="fas fa-brain"></i></div>
-                    <div class="exp-content">
-                        <h3>MIT CSAIL <span class="exp-role">Undergraduate NLP Researcher</span></h3>
-                        <span class="experience-date">2024 &ndash; Present</span>
-                        <p>Conducting research in natural language processing and large language models. Focused on RLHF, data curation, and model evaluation. Collaborating with leading researchers at MIT CSAIL.</p>
-                    </div>
-                </div>
-                <div class="experience-card resume-card">
-                    <div class="exp-icon"><i class="fas fa-file-pdf"></i></div>
-                    <div class="exp-content">
-                        <h3>Full Resume</h3>
-                        <a href="Bhagwat_Riddhi_Resume_0725_updated.pdf" target="_blank" class="btn btn-primary">Download Resume (PDF)</a>
-                    </div>
-                </div>
-            </div>
+    <!-- OncoNPC -->
+    <div class="project-row">
+      <img src="images/onconpc_image.png" class="project-thumb" alt="OncoNPC Generalization">
+      <div class="project-info">
+        <p class="project-title-line">
+          OncoNPC Generalization
+          <span class="tag research">Research</span>
+        </p>
+        <p class="project-authors">Under the guidance of Intae Moon &amp; Alexander Gusev</p>
+        <p class="project-desc">
+          Generalizing the OncoNPC cancer classification algorithm (developed in collaboration
+          with MIT CSAIL) to a broader patient population by training on diverse gene sequencing
+          platforms, with the goal of improving clinical applicability.
+        </p>
+        <p class="project-links-line">
+          <a href="https://www.nature.com/articles/s41591-023-02482-6" target="_blank">Original Paper (Nature Medicine)</a>
+        </p>
+        <div class="project-tags-line">
+          <span>Machine Learning</span>
+          <span>Genomics</span>
+          <span>Healthcare AI</span>
         </div>
-    </section>
+      </div>
+    </div>
 
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">Some of my recent work</p>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card featured">
-                    <div class="project-image">
-                        <img src="images/feel_pic.png" alt="FeeL - Feedback Loop">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://huggingface.co/blog/borgr/feel" target="_blank" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3>FeeL - Feedback Loop</h3>
-                            <span class="project-status ongoing">Ongoing</span>
-                        </div>
-                        <p class="project-description">
-                            A community-driven platform for improving multilingual language models through user feedback and RLHF, 
-                            making AI better for speakers of all languages.
-                        </p>
-                        <div class="project-tech">
-                            <span>LLMs</span>
-                            <span>RLHF</span>
-                            <span>HuggingFace</span>
-                            <span>Multilingual AI</span>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/fracnet_image.png" alt="FracNet Project">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3>FracNet</h3>
-                            <span class="project-status ongoing">Ongoing</span>
-                        </div>
-                        <p class="project-description">
-                            A deep learning tool based on flow modeling architecture to provide insights 
-                            into underground fractured rock networks.
-                        </p>
-                        <div class="project-tech">
-                            <span>Deep Learning</span>
-                            <span>Flow Modeling</span>
-                            <span>Simulation</span>
-                        </div>
-                    </div>
-                </div>
+  </section>
 
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/toneme_image.png" alt="ToneMe Project">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://github.com/tone-me/tone-me.git" target="_blank" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3>ToneMe</h3>
-                            <span class="project-status completed">Completed</span>
-                        </div>
-                        <p class="project-description">
-                            A tone correction tool for Mandarin learners. Developed as part of 
-                            AIM (AI @ MIT) Labs Accelerator.
-                        </p>
-                        <div class="project-tech">
-                            <span>NLP</span>
-                            <span>Audio Processing</span>
-                            <span>React</span>
-                        </div>
-                    </div>
-                </div>
+  <!-- ── Personal Projects ── -->
+  <section id="personal">
+    <h2 class="section-label">Personal Projects</h2>
 
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/onconpc_image.png" alt="OncoNPC Project">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://www.nature.com/articles/s41591-023-02482-6" target="_blank" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3>OncoNPC Generalization</h3>
-                            <span class="project-status ongoing">Research</span>
-                        </div>
-                        <p class="project-description">
-                            Generalizing the OncoNPC classification algorithm (developed in collaboration with MIT CSAIL) 
-                            to a broader patient population by training on specific gene sequencing platforms.
-                        </p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>Machine Learning</span>
-                            <span>Genomics</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Heart Health -->
+    <div class="project-row">
+      <div class="project-thumb-placeholder">Heart<br>Health</div>
+      <div class="project-info">
+        <p class="project-title-line">
+          Heart Health Technology
+          <span class="tag ongoing">Ongoing</span>
+        </p>
+        <p class="project-desc">
+          Exploring technologies for holistic heart health monitoring and sudden cardiac arrest
+          prevention. Interested in collaborating? Feel free to reach out.
+        </p>
+        <p class="project-links-line">
+          <a href="mailto:riddhibhagwat@gmail.com">Contact to learn more</a>
+        </p>
+        <div class="project-tags-line">
+          <span>Healthcare AI</span>
+          <span>Wearables</span>
+          <span>Cardiac Health</span>
         </div>
-    </section>
+      </div>
+    </div>
 
-    <section id="awards" class="awards accomplishments">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Awards & Accomplishments</h2>
-                <p class="section-subtitle">Recognition, honors, and achievements</p>
-            </div>
-            <div class="awards-grid-wide">
-                <div class="award-card">
-                    <div class="award-image"><img src="images/featured/ncwit_aic.png" alt="NCWIT AiC Award"></div>
-                    <div class="award-content">
-                        <h3>NCWIT Award for Aspirations in Computing</h3>
-                        <span class="award-badge">National</span>
-                        <p>National recognition for technical achievements and leadership in computing</p>
-                    </div>
-                </div>
-                <div class="award-card">
-                    <div class="award-image"><img src="images/featured/top_cs_voice.png" alt="LinkedIn Top Voice"></div>
-                    <div class="award-content">
-                        <h3>LinkedIn Top Voice in Computer Science</h3>
-                        <span class="award-badge">Thought Leadership</span>
-                        <p>Recognized for thought leadership and contributions to the CS community</p>
-                    </div>
-                </div>
-                <div class="award-card">
-                    <div class="award-image"><img src="images/featured/idea2-logo.png" alt="IDEA² Biomedical Accelerator"></div>
-                    <div class="award-content">
-                        <h3>IDEA² Biomedical Accelerator</h3>
-                        <span class="award-badge">Innovation</span>
-                        <p>Selected for prestigious biomedical innovation program</p>
-                    </div>
-                </div>
-                <div class="award-card">
-                    <div class="award-image"><img src="images/featured/dita_awards.jpg" alt="Diversity in Tech Awards"></div>
-                    <div class="award-content">
-                        <h3>Diversity in Tech Awards</h3>
-                        <span class="award-badge">Diversity</span>
-                        <p>Recognition for promoting diversity and inclusion in technology</p>
-                    </div>
-                </div>
-            </div>
-            <div class="section-header" style="margin-top: 3rem;">
-                <h3 class="section-title" style="font-size:1.5rem; margin-bottom:0.5rem;">Energy Awards</h3>
-                <p class="section-subtitle" style="font-size:1rem;">Recognition in energy innovation and leadership</p>
-            </div>
-            <div class="awards-grid">
-                <div class="award-card">
-                    <div class="award-image"><i class="fas fa-bolt fa-2x" style="color:var(--teal-dark);"></i></div>
-                    <div class="award-content">
-                        <h3>MIT Energy Initiative Top 5 Slam Speaker</h3>
-                        <span class="award-badge">Energy</span>
-                        <p>Selected as a top speaker for the MIT Energy Initiative Slam, presenting innovative energy solutions.</p>
-                    </div>
-                </div>
-                <div class="award-card">
-                    <div class="award-image"><i class="fas fa-award fa-2x" style="color:var(--teal-dark);"></i></div>
-                    <div class="award-content">
-                        <h3>C3E Energy Conference Poster Finalist 2025 @ Stanford</h3>
-                        <span class="award-badge">Energy</span>
-                        <p>Recognized as a finalist for the C3E Energy Conference poster session at Stanford University, 2025.</p>
-                    </div>
-                </div>
-            </div>
+    <!-- ToneMe -->
+    <div class="project-row">
+      <img src="images/toneme_image.png" class="project-thumb" alt="ToneMe">
+      <div class="project-info">
+        <p class="project-title-line">
+          ToneMe
+          <span class="tag completed">Completed</span>
+        </p>
+        <p class="project-authors"> AIM Labs Team</p>
+        <p class="project-desc">
+          A tone correction tool for Mandarin learners that provides real-time feedback on
+          tonal pronunciation. Developed as part of the AIM (AI&nbsp;@&nbsp;MIT) Labs Accelerator.
+        </p>
+        <p class="project-links-line">
+          <a href="https://github.com/tone-me/tone-me.git" target="_blank">GitHub</a>
+        </p>
+        <div class="project-tags-line">
+          <span>NLP</span>
+          <span>Audio Processing</span>
+          <span>Language Learning</span>
         </div>
-    </section>
+      </div>
+    </div>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Let's Connect</h2>
-                <p class="section-subtitle">Ready to collaborate on cutting-edge projects</p>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Email</h3>
-                            <a href="mailto:riddhibhagwat@gmail.com">riddhibhagwat@gmail.com</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Phone</h3>
-                            <a href="tel:+18473100073">+1 (847) 310-0073</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fab fa-linkedin"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>LinkedIn</h3>
-                            <a href="https://www.linkedin.com/in/riddhibhagwat" target="_blank">linkedin.com/in/riddhibhagwat</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form id="contact-form">
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+  </section>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-left">
-                    <p>&copy; 2024 Riddhi Bhagwat. All rights reserved.</p>
-                </div>
-                <div class="footer-right">
-                    <div class="footer-social">
-                        <a href="https://www.linkedin.com/in/riddhibhagwat" target="_blank" aria-label="LinkedIn">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/riddhibhagwat" target="_blank" aria-label="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="mailto:riddhibhagwat@gmail.com" aria-label="Email">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                        <a href="writing_speaking.html" aria-label="Writing & Speaking">
-                            <i class="fas fa-blog"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+  <!-- ── Interests (moved below projects) ── -->
+  <section id="interests">
+    <h2 class="section-label">Interests</h2>
+    <div class="interest-tags">
+      <span>human-AI interaction</span>
+      <span>startup ecosystem</span>
+      <span>healthtech</span>
+      <span>AI safety</span>
+      <span>education</span>
+      <span>reading sci-fi novels</span>
+      <span>AI equity &amp; access</span>
+      <span>writing prose</span>
+      <span>cognitive science</span>
+      <span>making chai</span>
+      <span>trying new matchas</span>
+      <span>dancing</span>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
+  <!-- ── Writing & Speaking ── -->
+  <section id="writing">
+    <h2 class="section-label">Writing &amp; Speaking</h2>
+    <div class="writing-layout">
+      <div class="writing-text">
+        <p>
+          I enjoy documenting life as I navigate it. My Substack,
+          <span class="highlight-text">Confessions of an Avid Laptop Sticker Collector</span>,
+          is a long-winded series of intense monologues, deep thoughts, sidewalk conversations,
+          and memorable experiences &mdash;
+          <span class="highlight-text">reflections of my take on life</span>.
+        </p>
+        <p>
+          <a href="#" target="_blank">Read on Substack &rarr;</a>
+        </p>
+
+        <h3 class="subsection-label">Talks &amp; Posters</h3>
+        <ul class="talks-list">
+          <li>ICLR 2026 Workshop &mdash; <em>Poster Presentation</em>, 2026</li>
+          <li>C3E Energy Conference, Stanford &mdash; <em>Poster Finalist</em>, 2025</li>
+          <li>MIT Energy Initiative Slam &mdash; <em>Top 5 Speaker</em>, 2025</li>
+        </ul>
+      </div>
+      <!-- <img src="images/speaking_image.png" class="speaking-img-small" alt="Riddhi speaking"> -->
+    </div>
+  </section>
+
+  <!-- ── Awards ── -->
+  <section id="awards">
+    <h2 class="section-label">Awards &amp; Recognition</h2>
+    <ul class="awards-list">
+      <li>
+        <span class="award-label">Research</span>
+        ICLR 2026 &mdash; Workshop Presentation, <em>2026</em>
+      </li>
+      <li>
+        <span class="award-label">Energy</span>
+        C3E Energy Conference Poster Finalist &mdash; Stanford, 2025
+      </li>
+      <li>
+        <span class="award-label">Energy</span>
+        MIT Energy Initiative Slam &mdash; Top 5 Speaker, 2025
+      </li>
+      
+      <li>
+        <span class="award-label">Thought Leadership</span>
+        LinkedIn Top Voice in Computer Science
+      </li>
+      <li>
+        <span class="award-label">Innovation</span>
+        IDEA&sup2; Biomedical Accelerator Selectee &amp; Cohort Member, 2024
+      </li>
+      <li>
+        <span class="award-label">Innovation</span>
+        Diversity in Tech Awards &mdash; Young Female STEM Pioneer, 2022
+      </li>
+      <li>
+        <span class="award-label">Thought Leadership</span>
+        NCWIT Award for Aspirations in Computing, 2020-2023 &amp; AspireIT Impact Award, 2022
+      </li>
+    </ul>
+  </section>
+
+  <!-- ── Contact ── -->
+  <section id="contact">
+    <div class="contact-card">
+      <p class="contact-heading">Let&rsquo;s talk!</p>
+      <p class="contact-blurb">
+        I&rsquo;m always happy to chat about research, collaborations, startups,
+        or swap matcha recommendations :) My inbox is open.
+      </p>
+      <div class="contact-icons">
+      <a href="mailto:riddhibhagwat@gmail.com" class="contact-icon-link" aria-label="Email">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/>
+        </svg>
+        Email
+      </a>
+      <a href="https://github.com/riddhibhagwat" target="_blank" class="contact-icon-link" aria-label="GitHub">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.49.5.09.682-.217.682-.482 0-.237-.009-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.607.069-.607 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.091-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.272.098-2.65 0 0 .84-.269 2.75 1.026A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.337 1.909-1.295 2.747-1.026 2.747-1.026.546 1.378.202 2.397.1 2.65.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.165 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+        </svg>
+        GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/riddhibhagwat" target="_blank" class="contact-icon-link" aria-label="LinkedIn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+        LinkedIn
+      </a>
+      <a href="#" target="_blank" class="contact-icon-link" aria-label="Substack">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>
+        </svg>
+        Substack
+      </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="site-footer">
+    <p>&copy; 2026 Riddhi Bhagwat</p>
+  </footer>
+
+</div>
+<script src="script.js"></script>
 </body>
 </html>
