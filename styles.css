@@ -99,9 +99,11 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
+  object-position: center 15%;
   border-radius: 50%;
   border: 1px solid var(--border);
   display: block;
+  margin-right: 1.5rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .profile-photo:hover {
@@ -120,18 +122,18 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
 .interest-tags { display: flex; flex-wrap: wrap; gap: 0.45rem; }
 
 .interest-tags span {
-  padding: 0.22rem 0.7rem;
+  padding: 0.3rem 0.9rem;
   border-radius: 999px;
-  font-size: 0.76rem;
+  font-size: 0.85rem;
   font-weight: 700;
   background: #E3EDE4;
   color: #3D6142;
   cursor: default;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.interest-tags span:nth-child(3n+2) { background: #F5E6E8; color: #8B4A52; }
+.interest-tags span:nth-child(3n+2) { background: #E3EDF5; color: #3D5A6B; }
 .interest-tags span:nth-child(3n)   { background: #EAE6F5; color: #5C4E8A; }
-.interest-tags span:nth-child(5n)   { background: #FEF3E2; color: #7A5C2E; }
+.interest-tags span:nth-child(5n)   { background: #F5E6EE; color: #7A3D5C; }
 .interest-tags span:hover {
   transform: translateY(-2px);
   box-shadow: 0 3px 10px rgba(0,0,0,0.08);
