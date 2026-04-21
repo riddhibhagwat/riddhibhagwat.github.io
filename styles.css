@@ -22,7 +22,7 @@ body {
   background: var(--bg);
   color: var(--text-body);
   font-family: 'Lato', system-ui, -apple-system, sans-serif;
-  font-size: 0.92rem;
+  font-size: 0.97rem;
   line-height: 1.75;
 }
 
@@ -57,8 +57,8 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
   letter-spacing: 0.01em;
 }
 
-.site-nav { font-size: 0.88rem; color: var(--text-muted); }
-.site-nav a { color: var(--text-body); margin: 0 0.1rem; }
+.site-nav { font-size: 0.97rem; color: var(--text-muted); }
+.site-nav a { color: var(--text-body); margin: 0 0.1rem; text-transform: lowercase; letter-spacing: 0.02em; }
 .site-nav a:hover { color: var(--accent); }
 
 /* ── Section labels (shared style for all headers including subsections) ── */
@@ -228,7 +228,7 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
 }
 
 .project-authors {
-  font-size: 0.84rem;
+  font-size: 0.88rem;
   color: var(--text-muted);
   margin-bottom: 0.28rem;
 }
@@ -239,7 +239,7 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
 
 .project-desc {
   color: var(--text-body);
-  font-size: 0.86rem;
+  font-size: 0.9rem;
   margin-bottom: 0.3rem;
 }
 
@@ -291,7 +291,7 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
 }
 
 .writing-text { flex: 1; }
-.writing-text p { margin-bottom: 0.7rem; font-size: 0.88rem; }
+.writing-text p { margin-bottom: 0.7rem; font-size: 0.92rem; }
 .writing-text .highlight-text { font-style: italic; color: var(--text); }
 
 .speaking-img-small {
